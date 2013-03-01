@@ -1,0 +1,4 @@
+ScrollView-Demo-For-iPhone.
+===========================
+
+There may be times when you want an infinite page loop, but don’t want to load in a lot of content. For example, You may have a lot of content to display inside the UIScrollView. Loading large amounts of data there would not be the ideal approach to the situation. The logic that we can use there is to keep the UIScrollView at just three pages. Data would load on each page and the user would always be looking at the data in the middle page. When the user scrolled to a new page, the content for each page would be reset and the offset would go back the user is back to viewing the middle page. That way even though you may have a large amount of data to scroll through, it’s not all loaded at once. Only three pages are ever loaded at one time.
